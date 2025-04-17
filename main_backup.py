@@ -10,6 +10,7 @@ from datetime import datetime
 # regions = ['ap-southeast-1', 'us-west-2', 'eu-central-1']
 regions = ['us-east-1']
 
+
 def convert_datetime(obj):
     if isinstance(obj, datetime):
         return obj.isoformat()  # Convert datetime to ISO 8601 string format
